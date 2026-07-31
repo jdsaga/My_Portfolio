@@ -220,7 +220,7 @@ section {
   height: 460px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #3bf2c1;
+  border: 3px solid #3bf27e;
 }
 
 .intro-role {
@@ -319,7 +319,7 @@ section {
 }
 
 .social-icon:hover {
-  background: #2de3a7;
+  background: #3bf27e;
   color: #0f1115;
 }
 
@@ -357,7 +357,7 @@ section {
   height: 320px;
   object-fit: cover;
   border-radius: 12px;
-  border: 2px solid #3bf2c1;
+  border: 2px solid #3bf27e;
 }
 
 @media (max-width: 768px) {
@@ -396,7 +396,7 @@ section {
 
 .skill-category {
   background: #1a1d24; /* box container background */
-  border: 3px solid rgb(16, 211, 185);
+  border: 3px solid #3bf27e;
   border-radius: 10px;
   padding: 20px 24px;
 }
@@ -475,7 +475,7 @@ section {
 }
 
 .tab-btn.active {
-  background-color: #75caff;
+  background-color: #3bf27e;
   color: #000000;
   font-weight: 600;
   border: none
@@ -515,7 +515,7 @@ section {
   background-color: #1a1a1a;
   border-radius: 12px;
   overflow: hidden;
-  border: 2px dashed #00ffd0;
+  border: 2px dashed #3bf27e;
   transition: transform 0.2s ease;
   cursor: pointer;  
   
@@ -765,7 +765,7 @@ section {
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
-  background: #75caff;
+  background: #3bf27e;
   color: #0f1115;
   transition: transform 0.15s, opacity 0.15s;
 
@@ -902,7 +902,7 @@ section {
   padding: 24px;
   text-align: left;
   overflow: hidden;
-  border: 1px solid rgb(44, 248, 186);
+  border: 1px solid #3bf27e;
 }
 
 @media (max-width: 768px) {
@@ -1044,7 +1044,7 @@ section {
   border-radius: 12px;
   padding: 24px;
   background: #0f1115;
-  border: 1px solid rgb(44, 248, 186);
+  border: 1px solid #3bf27e;
 }
 
 
@@ -1074,7 +1074,7 @@ section {
 }
 
 .contact-form button {
-  background: #3bf2e9;
+  background: #3bf27e;
   color: #0f1115;
   border: none;
   border-radius: 6px;
@@ -1124,7 +1124,7 @@ section {
   height: 50px;
   border-radius: 50%;
   border: 1px solid  rgb(17, 115, 54);
-  background-color: #46c3e5;
+  background-color: #3bf27e;
   color: rgb(17, 115, 54);
   font-size: 22px;
   cursor: pointer;
