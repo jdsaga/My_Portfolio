@@ -142,7 +142,7 @@ const scrollToTop = () => {
         </p> */}
 
         <div className="intro-buttons">
-          <a href="/JD REAL RESUME.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+          <a href="/Sagayno_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             View Resume
           </a>
           <a href="#aboutme" className="btn btn-secondary">About Me</a>
