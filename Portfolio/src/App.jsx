@@ -28,7 +28,7 @@ const skillCategories = [
   },
   {
     name: "Game Development",
-    skills: ["Godot", "Unity", "2D Platformer", "Top-Down", "Game Design", "Level Degin", "Unity", "Character Design", "3D Game Design"],
+    skills: ["Godot", "Unity", "2D Platformer", "Top-Down", "Game Design", "Level Degin", "Character Design", "3D Game Design", "Unreal Engine"],
   },
   {
     name: "AI Tools",
