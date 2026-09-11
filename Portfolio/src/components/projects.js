@@ -20,14 +20,31 @@ import artwork14 from "../assets/Artworks/woman_character.png";
 // --- Animations ---
 import animation1 from "../assets/Animation/NIGHT_ANIMATION.mp4";
 import animation2 from "../assets/Animation/Cartoon Style Animation.mp4";
-
+import animation3 from "../assets/Animation/GHOST RIDER ANIMATION.mp4";
+import animation4 from "../assets/Animation/My_Unreal_3D_Jeideru_Compressed.mp4";
 
 //---3D MODEL ---//
-import angel1 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 1.png";
-import angel2 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 2.png";
-import angel3 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 3.png";
-import angel4 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 4.png";
-import angel5 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 5.png";
+
+    //--SvsV--//
+
+    import angel1 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 1.png";
+    import angel2 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 2.png";
+    import angel3 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 3.png";
+    import angel4 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 4.png";
+    import angel5 from "../assets/3D_Models/Spiderman_Vs_Venom/Angle 5.png";
+
+    //--SvsV--//
+
+    import hos1 from "../assets/3D_Models/Hospital/Hospital.png";
+    import hos2 from "../assets/3D_Models/Hospital/Hospital_2.png";
+    import hos3 from "../assets/3D_Models/Hospital/Hospital_3.png";
+    import hos4 from "../assets/3D_Models/Hospital/Hospital_4.png";
+    import hos5 from "../assets/3D_Models/Hospital/Hospital_5.png";
+    import hos6 from "../assets/3D_Models/Hospital/Hospital_6.png";
+    import hos7 from "../assets/3D_Models/Hospital/Hospital_7.png";
+    import hos8 from "../assets/3D_Models/Hospital/Hospital_8.png";
+    import hos9 from "../assets/3D_Models/Hospital/Hospital_9.png";
+
 
 
 //---GAMES---//
@@ -247,6 +264,30 @@ export const projects = [
     featured: false,
   },
 
+  {
+    id: 14,
+    title: "Ghost Rider Animation",
+    subtitle: "Short Animation",
+    description: "A short animated clip.",
+    type: "animations",
+    typeLabel: "Pixel Animation",
+    videoSrc: animation3,
+    tags: ["Animation","Aseprite", "Cartoon-Style"],
+    featured: false,
+  },
+
+  {
+    id: 15,
+    title: "Hospital Model Tour in Unreal Engine",
+    subtitle: "Short Animation",
+    description: "A short animated clip.",
+    type: "animations",
+    typeLabel: "Model Animation",
+    videoSrc: animation4,
+    tags: ["Animation","Unreal Engine", "Realistic", "Camera Movement"],
+    featured: false,
+  },
+
   // ---------- 3D Model ----------
 
   {
@@ -265,9 +306,36 @@ export const projects = [
   ],
   tags: ["Blender", "3D Modeling", "Texturing"],
   featured: false,
-},// ---------- Games ----------
-{
+
+},
+ {
   id: 15,
+  title: "Cavite Hospital",
+  subtitle: "Building Model",
+  description: "A stylized 3D building model of Hospital.",
+  type: "3d model",
+  typeLabel: "Building Model",
+  images: [
+    { src: hos1},
+    { src: hos2},
+    { src: hos3},
+    { src: hos4},
+    { src: hos5},
+    { src: hos6},
+    { src: hos7},
+    { src: hos8},
+    { src: hos9},
+  ],
+  tags: ["Unreal Engine", "3D Modeling", "Texturing"],
+  featured: false,
+
+},
+
+
+
+// ---------- Games ----------
+{
+  id: 16,
   title: "Crooked",
   subtitle: "2D Top-Down",
   description: "Crooked Game is 2D Top-Down Game, where about farmer named JD, his goal is finding his five loosen chickens in the park after getting accident while driving a truck in the road.",
@@ -279,7 +347,7 @@ export const projects = [
   featured: false,
 },
 {
-  id: 16,
+  id: 17,
   title: "Project Zero Fragmented",
   subtitle: "3D First-Person Shooter",
   description: "Project Zero: Fragmented is a 3D, Doom-style first-person shooter set entirely within one massive, machine-infested building. Zero was created by a professor, but just as he awakened for the first time, he found himself alone the professor had passed away five years earlier, and in that time, Dr. Victor seized control of the building, filling it with his machine minions. Now Zero must fight through Victor's army and defeat him once and for all, to save the world and protect humanity.",
@@ -292,7 +360,7 @@ export const projects = [
 },
 // PROGRAMS
 {
-  id: 17,
+  id: 18,
   title: "JnC BikeShop",
   subtitle: "Website",
   description: "This Website is about selling of full set or by parts of bikes.",
@@ -309,7 +377,7 @@ export const projects = [
   featured: false,
 },
 {
-  id: 18,
+  id: 19,
   title: "Reed Elsevier",
   subtitle: "Application",
   description: "A human resources application for managing human data.",
@@ -326,7 +394,7 @@ export const projects = [
   featured: false,
 },
 {
-  id: 19,
+  id: 20,
   title: "Narralytics",
   subtitle: "Website",
   description: "A Website that can store and analyze narrative journals for Cvsu-Silang.",
