@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { SiDeviantart, SiArtstation, SiInstagram, SiTiktok, SiItchdotio } from "react-icons/si";
 import BubblesBackground from "./components/BubbleBackground.jsx";
 import profilePic from "./assets/jdd.png";
+import secondPic from "./assets/CustomPic.jpg";
 import Works from "./components/Works.jsx";
 import TypingText from "./components/TypingText.jsx";
 import emailjs from "@emailjs/browser";
@@ -158,7 +159,7 @@ const scrollToTop = () => {
         <h2 className="section-title"><span>About Me</span></h2>
         <div className="about-me-content">
           <div className="about-me-image">
-            <img src={profilePic} alt="About me" />
+            <img src={secondPic} alt="About me" />
           </div>
           <p className="about-me-text">
             I'm John Dale V. Sagayno, a fresh graduate of Cavite State University – Silang Campus, 
