@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import { SiDeviantart, SiArtstation, SiInstagram, SiTiktok, SiItchdotio } from "react-icons/si";
 import BubblesBackground from "./components/BubbleBackground.jsx";
 import profilePic from "./assets/jdd.png";
-import secondPic from "./assets/CustomPic.jpg";
+import secondPic from "./assets/CustomPic.JPG";
 import Works from "./components/Works.jsx";
 import TypingText from "./components/TypingText.jsx";
 import emailjs from "@emailjs/browser";
